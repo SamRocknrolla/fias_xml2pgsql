@@ -1,0 +1,1 @@
+LoadFiasUpdates --host=localhost --user=postgres --pwd=1 --dbname=fias --region=90
