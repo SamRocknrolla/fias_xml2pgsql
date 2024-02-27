@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS mun_hierarchy();
+alter table mun_hierarchy add column  if not exists id bigint;
+alter table mun_hierarchy add column  if not exists objectid bigint;
+alter table mun_hierarchy add column  if not exists parentobjid bigint;
+alter table mun_hierarchy add column  if not exists changeid bigint;
+alter table mun_hierarchy add column  if not exists oktmo varchar(11);
+alter table mun_hierarchy add column  if not exists previd bigint;
+alter table mun_hierarchy add column  if not exists nextid bigint;
+alter table mun_hierarchy add column  if not exists updatedate timestamp;
+alter table mun_hierarchy add column  if not exists startdate timestamp;
+alter table mun_hierarchy add column  if not exists enddate timestamp;
+alter table mun_hierarchy add column  if not exists isactive smallint;
+alter table mun_hierarchy add column  if not exists path smallint;

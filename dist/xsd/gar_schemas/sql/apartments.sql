@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS apartments();
+alter table apartments add column  if not exists id bigint;
+alter table apartments add column  if not exists objectid bigint;
+alter table apartments add column  if not exists objectguid varchar(36);
+alter table apartments add column  if not exists changeid bigint;
+alter table apartments add column  if not exists number varchar(50);
+alter table apartments add column  if not exists aparttype integer;
+alter table apartments add column  if not exists opertypeid bigint;
+alter table apartments add column  if not exists previd bigint;
+alter table apartments add column  if not exists nextid bigint;
+alter table apartments add column  if not exists updatedate timestamp;
+alter table apartments add column  if not exists startdate timestamp;
+alter table apartments add column  if not exists enddate timestamp;
+alter table apartments add column  if not exists isactual integer;
+alter table apartments add column  if not exists isactive integer;

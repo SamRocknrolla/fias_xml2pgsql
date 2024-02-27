@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS param();
+alter table param add column  if not exists id bigint;
+alter table param add column  if not exists objectid bigint;
+alter table param add column  if not exists changeid bigint;
+alter table param add column  if not exists changeidend bigint;
+alter table param add column  if not exists typeid integer;
+alter table param add column  if not exists value varchar(8000);
+alter table param add column  if not exists updatedate timestamp;
+alter table param add column  if not exists startdate timestamp;
+alter table param add column  if not exists enddate timestamp;

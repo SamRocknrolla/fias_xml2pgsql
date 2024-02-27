@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS addr_obj_types();
+alter table addr_obj_types add column  if not exists id bigint;
+alter table addr_obj_types add column  if not exists level bigint;
+alter table addr_obj_types add column  if not exists shortname varchar(50);
+alter table addr_obj_types add column  if not exists name varchar(250);
+alter table addr_obj_types add column  if not exists "desc" varchar(250);
+alter table addr_obj_types add column  if not exists updatedate timestamp;
+alter table addr_obj_types add column  if not exists startdate timestamp;
+alter table addr_obj_types add column  if not exists enddate timestamp;
+alter table addr_obj_types add column  if not exists isactive boolean;
